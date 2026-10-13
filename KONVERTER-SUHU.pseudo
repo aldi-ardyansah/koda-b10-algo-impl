@@ -1,0 +1,25 @@
+DECLARE suhuDerajatCelcius: REAL
+DECLARE suhuDerajatReamur: REAL
+DECLARE suhuDerajatFahrenheit: REAL
+DECLARE suhuDerajatKelvin: REAL
+DECLARE konversiKeDerajat: STRING
+
+INPUT suhuDerajatCelcius
+INPUT konversiKeDerajat
+
+IF konversiKeDerajat = "Reamur" OR konversiKeDerajat = "Fahrenheit" OR konversiKeDerajat = "Kelvin" THEN
+    IF konversiKeDerajat = "Reamur" THEN
+        suhuDerajatReamur <- 4/5 * suhuDerajatCelcius
+        OUTPUT suhuDerajatReamur
+    ELSE
+        IF konversiKeDerajat = "Fahrenheit" THEN
+            suhuDerajatFahrenheit <- 9/5 * (suhuDerajatCelcius + 32)
+            OUTPUT suhuDerajatFahrenheit
+        ELSE
+            suhuDerajatKelvin <- suhuDerajatCelcius + 273
+            OUTPUT suhuDerajatKelvin
+        ENDIF
+    ENDIF
+ELSE
+    INPUT suhuDerajatCelcius
+ENDIF
