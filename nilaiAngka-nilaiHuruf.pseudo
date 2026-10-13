@@ -5,26 +5,26 @@ INPUT nilaiAngka
 
 IF nilaiAngka >= 90 THEN
     nilaiHuruf <- 'A'
-    WRITE <- nilaiHuruf
+    OUTPUT nilaiHuruf
 ELSE
     IF nilaiAngka >= 80 THEN
         nilaiHuruf <- 'B'
-        WRITE <- nilaiHuruf
+        OUTPUT nilaiHuruf
     ELSE
         IF nilaiAngka >= 70 THEN
             nilaiHuruf <- 'C'
-            WRITE <- nilaiHuruf
+            OUTPUT nilaiHuruf
         ELSE
             IF nilaiAngka >= 60 THEN
                 nilaiHuruf <- 'D'
-                WRITE <- nilaiHuruf
+                OUTPUT nilaiHuruf
             ELSE
                 IF nilaiAngka >= 50 THEN
                     nilaiHuruf <- 'E'
-                    WRITE <- nilaiHuruf
+                    OUTPUT nilaiHuruf
                 ELSE
                     nilaiHuruf <- 'F'
-                    WRITE <- nilaiHuruf
+                    OUTPUT nilaiHuruf
                 ENDIF
             ENDIF
         ENDIF
