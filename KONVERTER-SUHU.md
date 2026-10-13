@@ -28,7 +28,7 @@ flowchart TD
     Z(((Stop)))
 
     A --> B --> C --> D
-    D --False--> C
+    D --False--> Z
     D --True--> E
     E --False--> F
     E --True--> G
