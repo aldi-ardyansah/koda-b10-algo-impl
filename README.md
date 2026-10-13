@@ -57,13 +57,13 @@ ELSE
     IF nilaiAngka >= 80 THEN
         nilaiHuruf <- 'B'
     ELSE
-        IF nilaiAngka >= 80 THEN
+        IF nilaiAngka >= 70 THEN
             nilaiHuruf <- 'C'
         ELSE
-            IF nilaiAngka >= 80 THEN
+            IF nilaiAngka >= 60 THEN
                 nilaiHuruf <- 'D'
             ELSE
-                IF nilaiAngka >= 80 THEN
+                IF nilaiAngka >= 50 THEN
                     nilaiHuruf <- 'E'
                 ELSE
                     nilaiHuruf <- 'F'
