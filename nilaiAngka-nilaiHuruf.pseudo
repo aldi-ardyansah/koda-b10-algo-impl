@@ -1,0 +1,26 @@
+DECLARE nilaiAngka: INTEGER
+DECLARE nilaiHuruf: STRING
+
+INPUT nilaiAngka
+
+IF nilaiAngka >= 90 THEN
+    nilaiHuruf <- 'A'
+ELSE
+    IF nilaiAngka >= 80 THEN
+        nilaiHuruf <- 'B'
+    ELSE
+        IF nilaiAngka >= 80 THEN
+            nilaiHuruf <- 'C'
+        ELSE
+            IF nilaiAngka >= 80 THEN
+                nilaiHuruf <- 'D'
+            ELSE
+                IF nilaiAngka >= 80 THEN
+                    nilaiHuruf <- 'E'
+                ELSE
+                    nilaiHuruf <- 'F'
+                ENDIF
+            ENDIF
+        ENDIF
+    ENDIF
+ENDIF
