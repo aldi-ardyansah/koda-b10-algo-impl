@@ -66,7 +66,5 @@ IF konversiKeDerajat = "Reamur" OR konversiKeDerajat = "Fahrenheit" OR konversiK
             OUTPUT suhuDerajatKelvin
         ENDIF
     ENDIF
-ELSE
-    INPUT suhuDerajatCelcius
 ENDIF
 ```
