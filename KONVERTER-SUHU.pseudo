@@ -13,7 +13,7 @@ IF konversiKeDerajat = "Reamur" OR konversiKeDerajat = "Fahrenheit" OR konversiK
         OUTPUT suhuDerajatReamur
     ELSE
         IF konversiKeDerajat = "Fahrenheit" THEN
-            suhuDerajatFahrenheit <- 9/5 * (suhuDerajatCelcius + 32)
+            suhuDerajatFahrenheit <- (9/5 * suhuDerajatCelcius) + 32
             OUTPUT suhuDerajatFahrenheit
         ELSE
             suhuDerajatKelvin <- suhuDerajatCelcius + 273
