@@ -7,7 +7,7 @@
 1. Jika nilai input konversi suhu adalah "Reamur", "Fahrenheit" atau "Kelvin" maka ke proses selanjutnya. Jika tidak, maka menuju ke stop.
 1. Jika nilai input konversi suhu adalah "Reamur", maka suhu derajat Reamur adalah 4/5 dikali suhu derajat Celcius, lalu output suhu derajat Reamur. Jika tidak, maka ke proses selanjutnya.
 1. Jika nilai input konversi suhu adalah "Fahrenheit", maka suhu derajat Fahrenheit adalah 9/5 dikali suhu derajat Celcius ditambah 32, lalu output suhu derajat Fahrenheit. Jika tidak, maka ke proses selanjutnya.
-1. Jika nilai input konversi suhu adalah "Kelvin", maka suhu derajat Kelvin adalah suhu derajat Celcius ditambah 273, lalu output suhu derajat Kelvin. Jika tidak, maka menuju ke stop.
+1. Jika nilai input konversi suhu adalah "Kelvin", maka suhu derajat Kelvin adalah suhu derajat Celcius ditambah 273, lalu output suhu derajat Kelvin.
 1. Stop
 
 ## Flowchart
